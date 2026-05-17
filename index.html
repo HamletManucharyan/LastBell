@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Վերջին Զանգի հրավեր</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="fixed-background"></div>
+    <div class="overlay"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p id="add">Հրավեր</p>
+            <h1>Վերջին Զանգ</h1>
+            <p>Դուք հրավիրված եք մեր Վերջին Զանգին</p>
+            <a href="#about" class="btn">Բացել հրավերը</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="card">
+            <h2>Հրավեր</h2>
+            <p>
+                Վերջին զանգի այս խորհրդանշական օրը մեզ համար առանձնապես կարևոր է,
+                և այն պատկերացնում ենք միայն Ձեր թանկ ներկայությամբ։
+                Սրտանց հրավիրում ենք Ձեզ միասին փակելու մեր դպրոցական
+                հիշողությունների վերջին էջը։
+            </p>
+            <br>
+            <p>
+                Միջոցառումը տեղի կունենա <strong>Մայիսի 22-ին ժամը 10:30-ին</strong>,
+                Արծվանիկի միջնակարգ դպրոցի դահլիճում։
+            </p>
+            <br>
+            <p><i>Սիրով՝ Արծվանիկի միջնակարգ դպրոցի 12-րդ դասարանի աշակերտներ</i></p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Հետհաշվարկ</h2>
+        <div id="countdown">
+            <div><span id="days">00</span><small>Օր</small></div>
+            <div><span id="hours">00</span><small>Ժամ</small></div>
+            <div><span id="minutes">00</span><small>Րոպե</small></div>
+            <div><span id="seconds">00</span><small>Վայրկյան</small></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Տեղը</h2>
+        <div class="card">
+            <h3>Արծվանիկի միջնակարգ դպրոց</h3>
+            <p style="margin-top:10px">Կապան, Սյունիք</p>
+            <a class="map-btn" href="https://maps.app.goo.gl/ogQp9vsFFLdC2nAL6" target="_blank">Բացել Քարտեզը</a>
+        </div>
+    </section>
+
+    <section class="section gallery">
+        <img loading="lazy"
+            src="resource/5211222122938702825.jpg"
+            alt="Gallery 1">
+        <img loading="lazy"
+            src="resource/5211222122938702826.jpg"
+            alt="Gallery 2">
+    </section>
+
+    <section class="section">
+        <div class="card">
+            <h2 style="font-size: 28px;">Հաստատել ներկայությունը</h2>
+            <form class="rsvp-form" action="https://formspree.io/f/mnjwkwbe" method="POST">
+                <input type="text" name="Անուն" placeholder="Անուն Ազգանուն" required>
+
+                <div id="hoqnelem">
+                    <p>Կմասնակցե՞ք միջոցառմանը.</p>
+                    <div id="voch">
+                        <label><input type="radio" name="Կմասնակցե՞ք" value="Այո" required> Սիրով, կմասնակցեմ</label>
+                        <label><input type="radio" name="Կմասնակցե՞ք" value="Ոչ"> Ցավոք, չեմ կարող</label>
+                    </div>
+                </div>
+
+                <textarea placeholder="Հաղորդագրություն (պարտադիր չէ)" name="Հաղորդագրություն"></textarea>
+                <button type="submit">Ուղարկել</button>
+            </form>
+        </div>
+    </section>
+
+    <audio id="music" loop playsinline>
+        <source
+            src="resource/Tata Simonyan - Verjin Zang (minus).mp3"
+            type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
