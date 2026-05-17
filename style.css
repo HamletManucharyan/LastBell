@@ -26,7 +26,7 @@ body {
     height: -webkit-fill-available;
     z-index: -10;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib9E84SYKKWEryZCx5TkablsuPoLAYuwXUxYIWfcKh1WoHU9a6rkD5vuaiEoqSS8yeDvA-iT1Y-cSzbSVzW8GecHx9DhxQi3vPK7H_kTdu019ruhLcU0oNrp-nVEEZvjX0EWlm5IkVjNU/s1600/1115_WVretraining.jpg") center/cover no-repeat;
+        url(resource/1115_WVretraining.jpg) center/cover no-repeat;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
